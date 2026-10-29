@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 抓取下来的静态资源（体积大，且可随时用 grab_page_js.py 重新生成）
+js/
+js_room/
+home.html
+home2.html
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
